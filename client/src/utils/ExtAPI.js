@@ -7,7 +7,7 @@ const ENDURL = "&search_field=name&search_value=";
 const WKEY = process.env.REACT_APP_WMAPI_KEY;
 
 // // Ombd
-const POSTERURL = "http://omdbapi.com/?t="
+const POSTERURL = "https://omdbapi.com/?t="
 const OKEY = process.env.REACT_APP_OMBDKEY;
 
 export default {
