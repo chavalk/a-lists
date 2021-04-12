@@ -20,6 +20,7 @@ export default {
         const APISEARCH = "https://api.watchmode.com/v1/title/" + id + "/details?apiKey=" + WKEY;
         return axios.get(APISEARCH)
     },
+    // Gets poster
     getPoster: function (title) {
         return axios.get(POSTERURL + title + "&apikey=" + OKEY)
     }
