@@ -152,13 +152,14 @@ const Dashboard = () => {
             network: network,
             view_url: view_url,
             email: user.email,
-        }).then((res) => loadWatchlist());
+        }).then((res) => {
+            loadWatchlist();
+            setShowResults(false);
+        });
     }
 
     function handleclearInput(event) {
         event.preventDefault();
-        console.log(film);
-        setFilm("");
         document.getElementById("search-form").reset();
     }
 
