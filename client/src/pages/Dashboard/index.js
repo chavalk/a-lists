@@ -17,7 +17,6 @@ const Dashboard = () => {
     const [info, setInfo] = useState({});
     const [poster, setPoster] = useState([]);
     const [showResults, setShowResults] = useState(false);
-    // const [clearInput, setClearInput] = useState("");
 
     // Set useAuth0 hook
     const { user, isLoading } = useAuth0();
@@ -44,7 +43,7 @@ const Dashboard = () => {
         event.preventDefault();
         const filmInput = event.target.value;
         setFilm(filmInput);
-        showHide();
+        
     }
 
     // calls 3 apis to pull search
@@ -63,7 +62,10 @@ const Dashboard = () => {
                 });
             });
             ExtAPI.getPoster(film)
-                .then((data) => setPoster(data.data))
+                .then((data) => {
+                    setPoster(data.data);
+                    setShowResults(true);
+                })
                 .catch((err) => console.log(err));
         });
     }
@@ -151,12 +153,6 @@ const Dashboard = () => {
             view_url: view_url,
             email: user.email,
         }).then((res) => loadWatchlist());
-    }
-
-    function showHide() {
-        setShowResults({
-            showResults: true,
-        });
     }
 
     function handleclearInput(event) {
