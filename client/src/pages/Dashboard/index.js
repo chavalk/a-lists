@@ -21,13 +21,13 @@ const Dashboard = () => {
     // Set useAuth0 hook
     const { user, isLoading } = useAuth0();
 
-    // Loads network and store them with setnetwork
+    // Loads watchlist
     useEffect(() => {
         loadWatchlist();
     }, []);
 
+    // Loads handleSubmit to automatically make API call 
     useEffect(() => {
-        console.log(debouncedFilm);
         handleSubmit();
     }, [debouncedFilm]);
 
