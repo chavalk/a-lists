@@ -31,7 +31,7 @@ https://serene-fjord-76369.herokuapp.com/
 * React.js
 * @auth0/auth0-react
 * Bootstrap
-* use-debounce
+* Use-Debounce
 * HTML5
 * CSS3
 * JavaScript
@@ -40,8 +40,9 @@ https://serene-fjord-76369.herokuapp.com/
 * Dotenv
 * Watchmode API
 * OMDB API
-* React-router-dom
-* React-dom
+* React-Router-Dom
+* React-Dom
+* Model-View-Controller Application Design
 * Mongoose ORM
 * MongoDB
 * Node.js
@@ -49,8 +50,8 @@ https://serene-fjord-76369.herokuapp.com/
 * Express.js
 * Concurrently
 * Nodemon
-* If-env
-* Win-node-env
+* If-Env
+* Win-Node-Env
 * Heroku
 
 ## Where users can get help with your project
