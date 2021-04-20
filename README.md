@@ -43,6 +43,7 @@ https://serene-fjord-76369.herokuapp.com/
 * React-router-dom
 * React-dom
 * Mongoose ORM
+* MongoDB
 * Node.js
 * Path
 * Express.js
@@ -50,6 +51,7 @@ https://serene-fjord-76369.herokuapp.com/
 * Nodemon
 * If-env
 * Win-node-env
+* Heroku
 
 ## Where users can get help with your project
 
