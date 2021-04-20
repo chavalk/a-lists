@@ -20,9 +20,9 @@ The project allows users to easily keep their favorite movies and TV shows organ
 
 Simply navigate to the deployed version listed below to interact with it. You can go through the registration process or you can use the following guest credentials to log in and interact with the application.
 
-Email: email@email.com
+Email: email1@email.com
 
-Password: password
+Password: pAssword1
 
 https://serene-fjord-76369.herokuapp.com/
 
