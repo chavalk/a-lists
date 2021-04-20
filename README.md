@@ -1,82 +1,80 @@
-# A LISTS [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# A-Lists 
 
-## Table of Contents
-  * [Description](#Description)
-  * [User Story](#User-Story)
-  * [Elevator Pitch](#Elevator-Pitch)
-  * [Language/Technoligies Used](#Language/Technologies-Used)
-  * [Mock-Up](#Mock-Up)    
-  * [Contributors](#Contributors)
-  * [Repository](#Repository-Link)
-  * [Questions](#Questions)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
 
-A Lists is an application that allows the user to search up a movie or a show and provides the service streaming it right away. With so many streaming service accounts it is easy to lose track of where a specific movie or show is streaming. It never fails when someone asks "Where were we watching that show?". With this mobile friendly application you can have the answer at your fingertips. The user can save as many movies as they wish and simply pop the app open and have the streaming service available.
- 
+An application that allows users to search a movie or show and to save the item to their watchlists.
 
-## User Story
-```
-AS AN avid film watcher
+## What the project does
 
-I WANT to be able  to keep tack of where a show or movie is streaming
+The project is secure application that allows users to register and/or log in to search movies or TV shows to save to their watchlists. After an item is saved, the application files it under the correct watchlist and the user can click on the show to navigate to the streaming service where they can watch it. Users can also delete any movie or TV show if they no longer want it listed on the watchlist. Below is a GIF showing the navigation of the application.
 
-SO I dont have to try and remember or waste time searching for it  
-```
-## Elevator Pitch
-```
-Tired of not remembering what streaming service has that one show or movie you were watching last night?
+![A-Lists](client/src/img/a-lists.gif)
 
-With so many streaming service accounts you don't need to remember or keep track of any current shows with 'A Lists'.
+## Why is the project useful
 
-Search, save and know what streaming service you are using to watch a show, at the reach of your fingertips.
-```
+The project allows users to easily keep their favorite movies and TV shows organized and to navigate to the streaming service where they can watch it by simply clicking on each item. It gives users control over the content they like and allows them to no longer have to Google where a movie or TV Show is available to watch.
 
+## How users can get started with the project
 
-## Language/Technologies Used
-* HTML5
-* CSS
-* JavaScript
-* NPM package(Package.json)
-   * react
-   * react-dom
-   * react-router-dom
-   * react-scripts
-   * axios
-   * dotenv
-   * express
-   * if-env
-   * mongoose
-   * @auth0/auth0-react
-   * use-debounce
-   * win-node-env
-   * bootstrap
-   
-* Heroku (Deployment)
-* ESLint (Testing code)
+Simply navigate to the deployed version listed below to interact with it. You can go through the registration process or you can use the following guest credentials to log in and interact with the application.
 
-## Mock-Up 
+Email: email@email.com
 
-![Alt Text](client/src/img/aLists3.gif)
-
-
-## Contributors
-* [Gabriele Falloon](https://github.com/ggfalloon) - ggfalloon@gmail.com
-* [Jose Garcia](https://github.com/chavalk) - chavalk@hotmail.com
-* [Harrison Noblett](https://github.com/HarrisonNoblett) - HarrisonNoblett55@gmail.com
-* [Janneth Alvarado Verduzco](https://github.com/jannverduzco) - janneth_verduzco@live.com
-
-## Live Link (Heroku)
+Password: password
 
 https://serene-fjord-76369.herokuapp.com/
 
-## Repository Link
+## What technologies were used with the project
 
-https://github.com/chavalk/a-lists
+* React.js
+* @auth0/auth0-react
+* Bootstrap
+* use-debounce
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* Axios
+* Dotenv
+* Watchmode API
+* OMDB API
+* React-router-dom
+* React-dom
+* Mongoose ORM
+* Node.js
+* Path
+* Express.js
+* Concurrently
+* Nodemon
+* If-env
+* Win-node-env
 
-## Questions
-For any questions or inquiries please reach out to any of the contributing members listed above.
+## Where users can get help with your project
 
+This is the GitHub username for each of the contributors: ggfalloon, chavalk, jannverduzco, and HarrisonNoblett.
 
-2021 © A LISTS
+These are the links for our GitHub profiles:
+
+https://github.com/ggfalloon
+
+https://github.com/chavalk
+
+https://github.com/jannverduzco
+
+https://github.com/HarrisonNoblett
+
+If you have any additional questions, feel free to reach any of us at:
+
+ggfalloon@gmail.com
+
+chavalk@hotmail.com
+
+janneth_verduzco@live.com
+
+HarrisonNoblett55@gmail.com
+
+## Who maintains and contributes to the project
+
+Currently I'm the only person maintaining and contributing to this forked repository of the project.
